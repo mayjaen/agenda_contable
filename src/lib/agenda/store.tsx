@@ -133,7 +133,7 @@ export function AgendaProvider({ children }: { children: ReactNode }) {
               sslConfig: parsed.sslConfig || defaults.sslConfig,
               adminLogs: parsed.adminLogs || defaults.adminLogs,
               themeMode: parsed.themeMode || "light",
-              isAuthenticated: parsed.isAuthenticated !== undefined ? parsed.isAuthenticated : true,
+              isAuthenticated: parsed.isAuthenticated !== undefined ? parsed.isAuthenticated : false,
             };
           }
         }
