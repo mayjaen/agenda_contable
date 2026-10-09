@@ -1,0 +1,6 @@
+{
+  "name": "Nuestra Agenda",
+  "description": "Agenda de trabajo multiempresa para coordinar tareas, reuniones, citas y vencimientos del equipo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
